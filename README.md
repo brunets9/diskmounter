@@ -34,12 +34,12 @@ cd diskmounter
 chmod +x disk.sh
 ```
 ## 🚀 Usage
-- 1. Run the Script
+- 1. Run the Script:
 To run the script, provide the path to the disk or partition you want to mount. This should be the path to the disk device, such as /dev/sda2, or the directory where the disk is located.
     ```bash=
     ./disk.sh /dev/sda2
     ```
-- 2. Samba Configuration (Optional)
+- 2. Samba Configuration (Optional):
 After running the script, you will be prompted if you wish to configure the mounted disk for network sharing using Samba. Simply enter y for "Yes" or n for "No".
 
 ## ⚙️ Features
